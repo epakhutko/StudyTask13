@@ -11,7 +11,6 @@ public class Main {
         Scanner inp = new Scanner(in).useLocale(Locale.ENGLISH);
         System.out.println("input line:");
         String a = inp.nextLine();
-        boolean res;
         if (a.contains("Java") && a.startsWith("I like") && a.endsWith("!!!"))
             System.out.printf("Upper case string: %s\n", a.toUpperCase());
         a=a.replace('a', 'o');
