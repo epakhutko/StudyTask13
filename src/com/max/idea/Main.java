@@ -8,7 +8,7 @@ import static java.lang.System.in;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner inp = new Scanner(in).useLocale(Locale.ENGLISH);
+        Scanner inp = new Scanner(in);
         System.out.println("input line:");
         String a = inp.nextLine();
         if (a.contains("Java") && a.startsWith("I like") && a.endsWith("!!!"))
