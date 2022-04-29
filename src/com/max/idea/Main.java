@@ -14,6 +14,8 @@ public class Main {
         if (a.contains("Java") && a.startsWith("I like") && a.endsWith("!!!"))
             System.out.printf("Upper case string: %s\n", a.toUpperCase());
         a=a.replace('a', 'o');
+        if (a.length()<12)
+            return;
         System.out.printf("Part of \"o\" string: %s\n", a.substring(7, 11));
     }
 }
